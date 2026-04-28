@@ -50,7 +50,7 @@ with tab1:
     filtered_deliveries = deliveries.copy()
 
     if selected_season != "All":
-        filtered_matches = filtered_matches[filtered_matches['season'] == str(selected_season)]
+        filtered_matches = filtered_matches[filtered_matches['season'].astype(str) == str(selected_season)]
         filtered_deliveries = filtered_deliveries[filtered_deliveries['match_id'].isin(filtered_matches['match_id'])]
 
     if selected_team != "All":
@@ -195,9 +195,17 @@ with tab3:
         
         st.success(f"🏆 Predicted Winner: **{predicted_winner}**")
         
-        # Win Probability Bar
-        st.write(f"**Win Probability: {win_prob*100:.1f}%**")
-        st.progress(float(win_prob))
+        # Win Probability Visual Chart
+        prob_df = pd.DataFrame({
+            'Team': [team1_input, team2_input],
+            'Probability': [t1_prob_norm, t2_prob_norm]
+        })
+        
+        fig_prob = px.pie(prob_df, values='Probability', names='Team', hole=0.4,
+                          title="📊 Head-to-Head Win Probability",
+                          color='Team', color_discrete_sequence=['#00CC96', '#EF553B'])
+        fig_prob.update_traces(textposition='inside', textinfo='percent+label')
+        st.plotly_chart(fig_prob, use_container_width=True)
         
         # Explain the reasoning behind the prediction
         st.write("### 🧠 Model Reasoning:")
