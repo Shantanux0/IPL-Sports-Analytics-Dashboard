@@ -170,16 +170,34 @@ with tab3:
         tw_enc = team_encoder.transform([toss_winner_input])[0]
         td_enc = toss_decision_encoder.transform([toss_decision_input])[0]
         
-        prediction_enc = model.predict([[t1_enc, t2_enc, tw_enc, td_enc]])
-        predicted_winner = team_encoder.inverse_transform(prediction_enc)[0]
-        
+        # Get probabilities for all classes
         probabilities = model.predict_proba([[t1_enc, t2_enc, tw_enc, td_enc]])[0]
+        
+        # We only care about the probabilities of Team 1 and Team 2
+        import numpy as np
+        t1_idx = np.where(model.classes_ == t1_enc)[0][0]
+        t2_idx = np.where(model.classes_ == t2_enc)[0][0]
+        
+        t1_prob = probabilities[t1_idx]
+        t2_prob = probabilities[t2_idx]
+        
+        # Normalize between the two competing teams
+        total_prob = t1_prob + t2_prob
+        t1_prob_norm = t1_prob / total_prob
+        t2_prob_norm = t2_prob / total_prob
+        
+        if t1_prob_norm > t2_prob_norm:
+            predicted_winner = team1_input
+            win_prob = t1_prob_norm
+        else:
+            predicted_winner = team2_input
+            win_prob = t2_prob_norm
         
         st.success(f"🏆 Predicted Winner: **{predicted_winner}**")
         
         # Win Probability Bar
-        st.write(f"**Win Probability: {max(probabilities)*100:.1f}%**")
-        st.progress(max(probabilities))
+        st.write(f"**Win Probability: {win_prob*100:.1f}%**")
+        st.progress(float(win_prob))
         
         # Explain the reasoning behind the prediction
         st.write("### 🧠 Model Reasoning:")
