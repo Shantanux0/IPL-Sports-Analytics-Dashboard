@@ -1,0 +1,51 @@
+match_id,season,date,city,venue,team1,team2,toss_winner,toss_decision,winner,result,result_margin,player_of_match
+1,2023,2023-03-31,Delhi,Arun Jaitley Stadium,Punjab Kings,Delhi Capitals,Punjab Kings,bat,Delhi Capitals,normal,43,R Pant
+2,2023,2023-04-01,Delhi,Arun Jaitley Stadium,Rajasthan Royals,Kolkata Knight Riders,Kolkata Knight Riders,bat,Rajasthan Royals,normal,43,Y Jaiswal
+3,2023,2023-04-02,Mumbai,Wankhede Stadium,Mumbai Indians,Rajasthan Royals,Rajasthan Royals,bat,Rajasthan Royals,normal,25,Y Chahal
+4,2023,2023-04-03,Chennai,MA Chidambaram Stadium,Sunrisers Hyderabad,Chennai Super Kings,Chennai Super Kings,field,Sunrisers Hyderabad,normal,13,A Markram
+5,2023,2023-04-04,Kolkata,Eden Gardens,Punjab Kings,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Punjab Kings,normal,38,S Dhawan
+6,2023,2023-04-05,Delhi,Arun Jaitley Stadium,Rajasthan Royals,Kolkata Knight Riders,Kolkata Knight Riders,field,Kolkata Knight Riders,normal,44,A Russell
+7,2023,2023-04-06,Chennai,MA Chidambaram Stadium,Royal Challengers Bangalore,Punjab Kings,Punjab Kings,field,Royal Challengers Bangalore,normal,2,M Siraj
+8,2023,2023-04-07,Bangalore,M.Chinnaswamy Stadium,Royal Challengers Bangalore,Punjab Kings,Punjab Kings,field,Royal Challengers Bangalore,normal,42,F du Plessis
+9,2023,2023-04-08,Delhi,Arun Jaitley Stadium,Punjab Kings,Delhi Capitals,Punjab Kings,field,Punjab Kings,normal,21,S Curran
+10,2023,2023-04-09,Chennai,MA Chidambaram Stadium,Royal Challengers Bangalore,Delhi Capitals,Royal Challengers Bangalore,bat,Delhi Capitals,normal,14,A Patel
+11,2023,2023-04-10,Mumbai,Wankhede Stadium,Chennai Super Kings,Rajasthan Royals,Rajasthan Royals,bat,Chennai Super Kings,normal,6,R Gaikwad
+12,2023,2023-04-11,Hyderabad,Rajiv Gandhi International Stadium,Punjab Kings,Mumbai Indians,Punjab Kings,bat,Mumbai Indians,normal,11,I Kishan
+13,2023,2023-04-12,Chennai,MA Chidambaram Stadium,Royal Challengers Bangalore,Kolkata Knight Riders,Royal Challengers Bangalore,bat,Royal Challengers Bangalore,normal,8,V Kohli
+14,2023,2023-04-13,Kolkata,Eden Gardens,Sunrisers Hyderabad,Rajasthan Royals,Sunrisers Hyderabad,bat,Rajasthan Royals,normal,31,Y Chahal
+15,2023,2023-04-14,Delhi,Arun Jaitley Stadium,Kolkata Knight Riders,Chennai Super Kings,Kolkata Knight Riders,field,Kolkata Knight Riders,normal,28,A Russell
+16,2023,2023-04-15,Bangalore,M.Chinnaswamy Stadium,Delhi Capitals,Sunrisers Hyderabad,Delhi Capitals,field,Delhi Capitals,normal,45,R Pant
+17,2023,2023-04-16,Mumbai,Wankhede Stadium,Sunrisers Hyderabad,Chennai Super Kings,Sunrisers Hyderabad,field,Chennai Super Kings,normal,3,R Jadeja
+18,2023,2023-04-17,Bangalore,M.Chinnaswamy Stadium,Chennai Super Kings,Delhi Capitals,Delhi Capitals,field,Chennai Super Kings,normal,45,R Jadeja
+19,2023,2023-04-18,Chennai,MA Chidambaram Stadium,Punjab Kings,Sunrisers Hyderabad,Sunrisers Hyderabad,bat,Punjab Kings,normal,2,A Singh
+20,2023,2023-04-19,Bangalore,M.Chinnaswamy Stadium,Kolkata Knight Riders,Mumbai Indians,Mumbai Indians,field,Kolkata Knight Riders,normal,32,S Narine
+21,2023,2023-04-20,Delhi,Arun Jaitley Stadium,Delhi Capitals,Mumbai Indians,Mumbai Indians,bat,Mumbai Indians,normal,19,J Bumrah
+22,2023,2023-04-21,Mumbai,Wankhede Stadium,Kolkata Knight Riders,Punjab Kings,Kolkata Knight Riders,field,Kolkata Knight Riders,normal,37,S Iyer
+23,2023,2023-04-22,Bangalore,M.Chinnaswamy Stadium,Royal Challengers Bangalore,Chennai Super Kings,Royal Challengers Bangalore,bat,Royal Challengers Bangalore,normal,15,G Maxwell
+24,2023,2023-04-23,Bangalore,M.Chinnaswamy Stadium,Sunrisers Hyderabad,Punjab Kings,Sunrisers Hyderabad,field,Punjab Kings,normal,8,L Livingstone
+25,2023,2023-04-24,Delhi,Arun Jaitley Stadium,Delhi Capitals,Sunrisers Hyderabad,Delhi Capitals,bat,Delhi Capitals,normal,41,K Yadav
+26,2023,2023-04-25,Bangalore,M.Chinnaswamy Stadium,Chennai Super Kings,Mumbai Indians,Chennai Super Kings,field,Mumbai Indians,normal,24,S Yadav
+27,2023,2023-04-26,Mumbai,Wankhede Stadium,Kolkata Knight Riders,Punjab Kings,Punjab Kings,field,Kolkata Knight Riders,normal,8,S Narine
+28,2023,2023-04-27,Mumbai,Wankhede Stadium,Mumbai Indians,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Mumbai Indians,normal,14,I Kishan
+29,2023,2023-04-28,Kolkata,Eden Gardens,Rajasthan Royals,Punjab Kings,Rajasthan Royals,bat,Punjab Kings,normal,5,L Livingstone
+30,2023,2023-04-29,Mumbai,Wankhede Stadium,Punjab Kings,Rajasthan Royals,Punjab Kings,field,Punjab Kings,normal,26,S Curran
+31,2023,2023-04-30,Chennai,MA Chidambaram Stadium,Delhi Capitals,Kolkata Knight Riders,Kolkata Knight Riders,field,Delhi Capitals,normal,40,D Warner
+32,2023,2023-05-01,Mumbai,Wankhede Stadium,Delhi Capitals,Chennai Super Kings,Chennai Super Kings,field,Chennai Super Kings,normal,29,R Gaikwad
+33,2023,2023-05-02,Delhi,Arun Jaitley Stadium,Rajasthan Royals,Punjab Kings,Punjab Kings,field,Rajasthan Royals,normal,48,J Buttler
+34,2023,2023-05-03,Bangalore,M.Chinnaswamy Stadium,Sunrisers Hyderabad,Chennai Super Kings,Sunrisers Hyderabad,field,Sunrisers Hyderabad,normal,38,B Kumar
+35,2023,2023-05-04,Kolkata,Eden Gardens,Punjab Kings,Mumbai Indians,Mumbai Indians,field,Mumbai Indians,normal,38,I Kishan
+36,2023,2023-05-05,Mumbai,Wankhede Stadium,Delhi Capitals,Royal Challengers Bangalore,Delhi Capitals,bat,Royal Challengers Bangalore,normal,37,F du Plessis
+37,2023,2023-05-06,Kolkata,Eden Gardens,Chennai Super Kings,Mumbai Indians,Mumbai Indians,bat,Mumbai Indians,normal,45,R Sharma
+38,2023,2023-05-07,Kolkata,Eden Gardens,Punjab Kings,Chennai Super Kings,Punjab Kings,field,Punjab Kings,normal,6,S Dhawan
+39,2023,2023-05-08,Delhi,Arun Jaitley Stadium,Chennai Super Kings,Sunrisers Hyderabad,Sunrisers Hyderabad,bat,Sunrisers Hyderabad,normal,10,T Natarajan
+40,2023,2023-05-09,Delhi,Arun Jaitley Stadium,Rajasthan Royals,Punjab Kings,Rajasthan Royals,field,Rajasthan Royals,normal,42,Y Jaiswal
+41,2023,2023-05-10,Delhi,Arun Jaitley Stadium,Royal Challengers Bangalore,Punjab Kings,Royal Challengers Bangalore,bat,Royal Challengers Bangalore,normal,44,V Kohli
+42,2023,2023-05-11,Chennai,MA Chidambaram Stadium,Mumbai Indians,Chennai Super Kings,Chennai Super Kings,bat,Mumbai Indians,normal,43,J Bumrah
+43,2023,2023-05-12,Bangalore,M.Chinnaswamy Stadium,Sunrisers Hyderabad,Chennai Super Kings,Chennai Super Kings,field,Chennai Super Kings,normal,47,MS Dhoni
+44,2023,2023-05-13,Delhi,Arun Jaitley Stadium,Rajasthan Royals,Punjab Kings,Rajasthan Royals,field,Rajasthan Royals,normal,22,S Samson
+45,2023,2023-05-14,Chennai,MA Chidambaram Stadium,Chennai Super Kings,Punjab Kings,Chennai Super Kings,bat,Punjab Kings,normal,35,L Livingstone
+46,2023,2023-05-15,Mumbai,Wankhede Stadium,Delhi Capitals,Mumbai Indians,Delhi Capitals,bat,Delhi Capitals,normal,27,R Pant
+47,2023,2023-05-16,Bangalore,M.Chinnaswamy Stadium,Rajasthan Royals,Punjab Kings,Punjab Kings,field,Rajasthan Royals,normal,9,Y Chahal
+48,2023,2023-05-17,Hyderabad,Rajiv Gandhi International Stadium,Rajasthan Royals,Kolkata Knight Riders,Rajasthan Royals,field,Kolkata Knight Riders,normal,1,S Narine
+49,2023,2023-05-18,Chennai,MA Chidambaram Stadium,Chennai Super Kings,Delhi Capitals,Delhi Capitals,field,Delhi Capitals,normal,22,D Warner
+50,2023,2023-05-19,Kolkata,Eden Gardens,Punjab Kings,Sunrisers Hyderabad,Punjab Kings,field,Punjab Kings,normal,33,A Singh
