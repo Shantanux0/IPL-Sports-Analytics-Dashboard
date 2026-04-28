@@ -176,5 +176,26 @@ with tab3:
         probabilities = model.predict_proba([[t1_enc, t2_enc, tw_enc, td_enc]])[0]
         
         st.success(f"🏆 Predicted Winner: **{predicted_winner}**")
-        st.write("Win Probability breakdown:")
+        
+        # Win Probability Bar
+        st.write(f"**Win Probability: {max(probabilities)*100:.1f}%**")
         st.progress(max(probabilities))
+        
+        # Explain the reasoning behind the prediction
+        st.write("### 🧠 Model Reasoning:")
+        reasons = []
+        
+        # Reason 1: Toss Impact
+        if toss_winner_input == predicted_winner:
+            reasons.append(f"🪙 **Toss Advantage**: **{predicted_winner}** won the toss. The model identified that controlling the initial match conditions against this specific opponent provides a strong statistical edge.")
+        else:
+            reasons.append(f"🛡️ **Resilience**: Even though they lost the toss, historical data shows **{predicted_winner}** has an excellent track record of overcoming this disadvantage against their current opponent.")
+            
+        # Reason 2: Decision Impact
+        if toss_decision_input == "bat":
+            reasons.append(f"🏏 **Scoreboard Pressure**: The decision to **bat first** plays to historical strengths. Setting a high target puts heavy run-rate pressure on the chasing team in the death overs.")
+        else:
+            reasons.append(f"🎯 **Calculated Chase**: The decision to **field first** is statistically favorable here. It allows the team to know the exact required run-rate and pace their batting innings perfectly.")
+
+        for r in reasons:
+            st.markdown(f"- {r}")
