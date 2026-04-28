@@ -83,10 +83,10 @@ streamlit run streamlit_dashboard.py
 
 ## 📂 Repository Structure
 - `data/` : *(You can place your CSV datasets here)*
+- `app.py` : The Full-Stack Application containing the Dashboard, ETL, and ML predictor.
 - `excel_data_cleaning_guide.md` : Documentation of Excel preprocessing steps.
 - `ipl_analysis.sql` : Comprehensive SQL queries for deep-dive analysis.
 - `power_bi_dashboard_guide.md` : DAX scripts and layout guide for the Power BI Dashboard.
-- `streamlit_dashboard.py` : Python Streamlit web dashboard (Mac alternative).
 - `generate_sample_data.py` : Python script to synthesize realistic IPL datasets for testing.
 
 *Note: Since Power BI `.pbix` files are binary and contain proprietary data structures, the complete guide, DAX formulas, and data model architecture are provided in the repository to recreate the dashboard seamlessly.*
